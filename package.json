@@ -1,15 +1,14 @@
 {
-  "name": "INDICTIVE CORE",
-  "version": "2.0",
-  "description": "©AiiSigma",
+  "name": "Vortunix Infinity",
+  "version": "1.0.0",
+  "description": "©GyzenVtx || @AboutGyzenLyoraa",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "github:kiuur/baileys-esm",
+    "@whiskeysockets/baileys": "github:kiuur/baileys",
     "chalk": "^4.1.2",
-    "axios": "^1.6.8",
     "cookie-parser": "^1.4.6",
     "crypto": "latest",
     "express": "^4.18.2",
@@ -18,7 +17,8 @@
     "moment-timezone": "latest",
     "pino": "^9.5.0",
     "cors": "^2.8.5",
-    "form-data": "^4.0.0",
+    "adm-zip": "^0.5.12",
+    "tar": "^7.4.3",
     "telegraf": "^4.16.3"
   }
 }
